@@ -49,7 +49,7 @@ namespace antlrcpp {
             result += "\u00B7";
             break;
           }
-          // else fall through
+          // fall through
 #ifndef _MSC_VER
 #if __has_cpp_attribute(clang::fallthrough)
           [[clang::fallthrough]];
